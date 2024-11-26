@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef1f5; /* Light background for a clean look */
+}
+
+.container {
+    max-width: 600px; /* Center the content with a defined max width */
+    margin: 50px auto; /* Center the container vertically and horizontally */
+    padding: 30px; /* Add padding for breathing space */
+    background-color: #ffffff; /* White background for contrast */
+    border-radius: 10px; /* Rounded corners for a modern touch */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    text-align: center; /* Center align text for a polished look */
+}
+
+h1 {
+    color: #333; /* Dark text for contrast */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+h2 {
+    color: #555; /* Slightly lighter color for secondary headings */
+    margin-top: 30px; /* Space above subheadings */
+    margin-bottom: 10px; /* Space below subheadings */
+}
+
+form {
+    margin: 20px 0; /* Space around forms */
+}
+
+label {
+    font-weight: bold; /* Bold labels for better readability */
+    display: block; /* Display labels as block elements */
+    margin-bottom: 10px; /* Space below labels */
+}
+
+input[type="file"] {
+    margin-bottom: 20px; /* Space below the file input */
+}
+
+textarea {
+    width: 100%; /* Full width for text areas */
+    padding: 12px; /* Increased padding for comfort */
+    margin-top: 10px; /* Space above textareas */
+    margin-bottom: 20px; /* Space below textareas */
+    font-size: 14px; /* Font size */
+    border: 1px solid #ccc; /* Soft border */
+    border-radius: 5px; /* Rounded corners */
+    resize: vertical; /* Allow vertical resizing only */
+}
+
+button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 12px 20px; /* Increased padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+button:active {
+    transform: translateY(0); /* Reset lift effect on click */
+}
